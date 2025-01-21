@@ -1,6 +1,6 @@
 module.exports = {
 
-    // Verifica se o token é válido acessando a rota userinfo do Keycloak
+    // Verify if the token is valid by accessing the userinfo route from Keycloak
     async ValidateToken(req, res, next) {
 
         try {

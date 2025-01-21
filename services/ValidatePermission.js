@@ -1,6 +1,6 @@
 module.exports = {
 
-    // Valida se o usuário tem permissão para acessar a rota verificando se ele pertence ao grupo
+    // Check if the user has permission to acess the route by veryfing if he belongs to the group
     async ValidatePermission(user, group, token) {
 
         try {
